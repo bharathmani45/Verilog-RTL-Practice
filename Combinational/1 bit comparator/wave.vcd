@@ -1,0 +1,46 @@
+$date
+	Sun Jun 28 20:59:59 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comparator_tb $end
+$var wire 1 ! lt $end
+$var wire 1 " gt $end
+$var wire 1 # eq $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$scope module uut $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 # eq $end
+$var wire 1 " gt $end
+$var wire 1 ! lt $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+1#
+0"
+0!
+$end
+#3
+0#
+1!
+1%
+#6
+1"
+0!
+1$
+0%
+#9
+0"
+1#
+1%
+#12
