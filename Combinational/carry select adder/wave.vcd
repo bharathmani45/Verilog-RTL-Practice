@@ -1,0 +1,475 @@
+$date
+	Mon Jul 13 10:40:26 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module csa_tb $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ( sum1 [3:0] $end
+$var wire 4 ) sum0 [3:0] $end
+$var wire 4 * sum [3:0] $end
+$var wire 1 + cout1 $end
+$var wire 1 , cout0 $end
+$var wire 1 " cout $end
+$scope module ra0 $end
+$var wire 4 - a [3:0] $end
+$var wire 4 . b [3:0] $end
+$var wire 1 / cin $end
+$var wire 4 0 sum [3:0] $end
+$var wire 1 , cout $end
+$var wire 1 1 c3 $end
+$var wire 1 2 c2 $end
+$var wire 1 3 c1 $end
+$scope module fa0 $end
+$var wire 1 4 a $end
+$var wire 1 5 b $end
+$var wire 1 / cin $end
+$var wire 1 3 cout $end
+$var wire 1 6 sum $end
+$upscope $end
+$scope module fa1 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 3 cin $end
+$var wire 1 2 cout $end
+$var wire 1 9 sum $end
+$upscope $end
+$scope module fa2 $end
+$var wire 1 : a $end
+$var wire 1 ; b $end
+$var wire 1 2 cin $end
+$var wire 1 1 cout $end
+$var wire 1 < sum $end
+$upscope $end
+$scope module fa3 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 1 cin $end
+$var wire 1 , cout $end
+$var wire 1 ? sum $end
+$upscope $end
+$upscope $end
+$scope module ra1 $end
+$var wire 4 @ a [3:0] $end
+$var wire 4 A b [3:0] $end
+$var wire 1 B cin $end
+$var wire 4 C sum [3:0] $end
+$var wire 1 + cout $end
+$var wire 1 D c3 $end
+$var wire 1 E c2 $end
+$var wire 1 F c1 $end
+$scope module fa0 $end
+$var wire 1 G a $end
+$var wire 1 H b $end
+$var wire 1 B cin $end
+$var wire 1 F cout $end
+$var wire 1 I sum $end
+$upscope $end
+$scope module fa1 $end
+$var wire 1 J a $end
+$var wire 1 K b $end
+$var wire 1 F cin $end
+$var wire 1 E cout $end
+$var wire 1 L sum $end
+$upscope $end
+$scope module fa2 $end
+$var wire 1 M a $end
+$var wire 1 N b $end
+$var wire 1 E cin $end
+$var wire 1 D cout $end
+$var wire 1 O sum $end
+$upscope $end
+$scope module fa3 $end
+$var wire 1 P a $end
+$var wire 1 Q b $end
+$var wire 1 D cin $end
+$var wire 1 + cout $end
+$var wire 1 R sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+1I
+0H
+0G
+0F
+0E
+0D
+b1 C
+1B
+b0 A
+b0 @
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+b0 0
+0/
+b0 .
+b0 -
+0,
+0+
+b0 *
+b0 )
+b1 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10
+b10 !
+b10 *
+b10 )
+b10 0
+19
+b11 (
+b11 C
+1L
+13
+1F
+15
+1H
+14
+1G
+b1 $
+b1 '
+b1 .
+b1 A
+b1 #
+b1 &
+b1 -
+b1 @
+#20
+09
+1<
+1O
+b101 !
+b101 *
+03
+12
+1E
+b101 )
+b101 0
+16
+b110 (
+b110 C
+0I
+18
+1K
+04
+17
+0G
+1J
+b11 $
+b11 '
+b11 .
+b11 A
+b10 #
+b10 &
+b10 -
+b10 @
+#30
+1?
+1R
+13
+12
+b1000 !
+b1000 *
+11
+1D
+06
+09
+b1000 )
+b1000 0
+0<
+1I
+0L
+b1001 (
+b1001 C
+0O
+14
+07
+1:
+1G
+0J
+1M
+b101 #
+b101 &
+b101 -
+b101 @
+#40
+08
+0K
+17
+1J
+b1 $
+b1 '
+b1 .
+b1 A
+b111 #
+b111 &
+b111 -
+b111 @
+#50
+1"
+b0 !
+b0 *
+1,
+1+
+b0 )
+b0 0
+0?
+b1 (
+b1 C
+0R
+1=
+1P
+b1111 #
+b1111 &
+b1111 -
+b1111 @
+#60
+b1110 !
+b1110 *
+19
+1<
+b1110 )
+b1110 0
+1?
+1L
+1O
+b1111 (
+b1111 C
+1R
+18
+1;
+1>
+1K
+1N
+1Q
+b1111 $
+b1111 '
+b1111 .
+b1111 A
+#70
+09
+0<
+b0 )
+b0 0
+0?
+0L
+0O
+b1 (
+b1 C
+0R
+0"
+03
+02
+01
+0,
+0F
+0E
+0D
+0+
+05
+08
+0;
+0>
+0H
+0K
+0N
+0Q
+04
+07
+0:
+0=
+0G
+0J
+0M
+0P
+b1 !
+b1 *
+b0 $
+b0 '
+b0 .
+b0 A
+b0 #
+b0 &
+b0 -
+b0 @
+1%
+#80
+b11 !
+b11 *
+b10 )
+b10 0
+19
+b11 (
+b11 C
+1L
+13
+1F
+15
+1H
+14
+1G
+b1 $
+b1 '
+b1 .
+b1 A
+b1 #
+b1 &
+b1 -
+b1 @
+#90
+09
+1<
+1O
+03
+b110 !
+b110 *
+12
+1E
+b101 )
+b101 0
+16
+b110 (
+b110 C
+0I
+18
+1K
+04
+17
+0G
+1J
+b11 $
+b11 '
+b11 .
+b11 A
+b10 #
+b10 &
+b10 -
+b10 @
+#100
+1?
+1R
+13
+12
+11
+b1001 !
+b1001 *
+1D
+06
+09
+b1000 )
+b1000 0
+0<
+1I
+0L
+b1001 (
+b1001 C
+0O
+14
+07
+1:
+1G
+0J
+1M
+b101 #
+b101 &
+b101 -
+b101 @
+#110
+08
+0K
+17
+1J
+b1 $
+b1 '
+b1 .
+b1 A
+b111 #
+b111 &
+b111 -
+b111 @
+#120
+1"
+1,
+b1 !
+b1 *
+1+
+b0 )
+b0 0
+0?
+b1 (
+b1 C
+0R
+1=
+1P
+b1111 #
+b1111 &
+b1111 -
+b1111 @
+#130
+b1111 !
+b1111 *
+19
+1<
+b1110 )
+b1110 0
+1?
+1L
+1O
+b1111 (
+b1111 C
+1R
+18
+1;
+1>
+1K
+1N
+1Q
+b1111 $
+b1111 '
+b1111 .
+b1111 A
+#140
